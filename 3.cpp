@@ -14,7 +14,7 @@ int main(){
 		}
 		else if(a[i]=='P'){
 			max=c[x[i]];
-			for(j=x[i];j<y[i];j++){
+			for(j=x[i];j<=y[i];j++){
 				if(max<c[j]){
        				max=c[j];
 	   			}
