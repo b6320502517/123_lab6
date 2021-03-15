@@ -3,7 +3,8 @@ int main(){
 	int n=1,i,j,k,m;
 	if(n>=1&&n<=10000)
 		scanf("%d",&n);
-	char s[n][1000],f[n]={},mi[n]={};
+	char s[n][1000];
+	int f[n]={},mi[n]={};
 	for(i=0;i<n;i++)
 		scanf(" %[^\n]s",s[i]);
 	for(j=0;j<26;j++){
