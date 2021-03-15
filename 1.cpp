@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int n=1,i,j,k;
+	int n=1,i,j,k,m;
 	if(n>=1&&n<=10000)
 		scanf("%d",&n);
 	char s[n][1000],f[n]={};
@@ -12,5 +12,13 @@ int main(){
 				f[i]=j+1;
 			}
 	}
+	k=f[0];
+	for(i=0;i<n;i++){
+		if(k>f[i]){
+			k=f[i];
+			m=i;
+		}			
+	}
+	printf("%s",s[m]);
 	return 0;
 }
