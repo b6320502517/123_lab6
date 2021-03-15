@@ -19,7 +19,7 @@ int main(){
        				max=c[j];
 	   			}
 			}
-			printf("%d\n",max);
+			printf("%ld\n",max);
 		}
 	}
 	return 0;
