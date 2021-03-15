@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int n=3,i,j,x=1,max,min,l,max1,min1;
+	int n=3,i,j,x=1,max,min,l,max1=1,min1=1;
 	if(n>2&&n<=1000)
 		scanf("%d",&n);
 	int a[n][2],b[n]={};
@@ -32,9 +32,9 @@ int main(){
         	min1=i;
 		}	
    }
-   for(i=1;i<=n;i++)
-   	if(b[i]==0)
-		min1=i;
+   //for(i=1;i<=n;i++)
+   	//if(b[i]==0)
+		//min1=i;
    printf("%d %d",max1,min1);
 	return 0;
 }
