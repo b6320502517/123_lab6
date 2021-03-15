@@ -30,11 +30,11 @@ int main(){
         if(min>b[i]){
         	min=b[i];
         	min1=i;
-		}
-		if(b[i]==0)
-			min1=i;
-        	
+		}	
    }
+   for(i=1;i<=n;i++)
+   	if(b[i]==0)
+		min1=i;
    printf("%d %d",max1,min1);
 	return 0;
 }
