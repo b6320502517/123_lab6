@@ -3,7 +3,8 @@ int main(){
 	int n=3,i,j,x=1,max,min,l,max1=1,min1=1;
 	if(n>2&&n<=1000)
 		scanf("%d",&n);
-	int a[n][2],b[n]={};
+	int a[n][2];
+	int b[n]={};
 	for(i=0;i<n;i++){
 		for(j=0;j<2;j++){
 			if(x>=1&&x<=n)
