@@ -20,7 +20,6 @@ int main(){
 		}
 	}	
 	}
-	
 	max=b[1];
 	min=b[1];
 	for(i=1;i<=n;i++){
@@ -28,7 +27,6 @@ int main(){
        		max=b[i];
        		max1=i;
 	   }
-        	
         if(min>b[i]){
         	min=b[i];
         	min1=i;
